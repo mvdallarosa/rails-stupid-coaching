@@ -1,0 +1,14 @@
+<div>
+  <% if params["question"] == "I am going to work" %>
+    <p><%= params["question"] %></p>
+    <p><%= " Great!" %></p>
+  <% elsif params["question"].last == "?" %>
+    <p><%= params["question"] %></p>
+    <p>Silly question, get dressed and go to work!</p>
+  <% else %>
+    <p><%= params["question"] %></p>
+    <p>I don't care, get dressed and go to work!</p>
+  <% end %>
+</div>
+
+<%= link_to "Ask a new question!", ask_path %>
