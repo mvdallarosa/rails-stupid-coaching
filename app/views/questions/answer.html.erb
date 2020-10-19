@@ -1,0 +1,12 @@
+<div>
+  <div class="question">
+    <p><%= @question %></p>
+    <p style="font-style: italic"> -You</p>
+  </div>
+  <div class="question coach">
+    <p style="font-weight: 600"><%= @answer %></p>
+    <p style="font-style: italic"> -Your coach</p>
+  </div>
+</div>
+
+<%= link_to "Ask a new question!", ask_path %>

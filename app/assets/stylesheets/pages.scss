@@ -16,9 +16,62 @@ body {
 }
 
 a {
-  color: grey;
+  color: #649FD1;
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
   &:hover {
     color: black;
+    text-decoration: none;
   }
 }
+
+.container {
+  padding: 10px;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: rgb(50, 50, 50);
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+p {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: rgb(50, 50, 50);
+}
+
+.question {
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  border-left: 7px solid rgba(50, 50, 50, 0.2);
+  justify-content: center;
+}
+
+.coach {
+  background-color: #FEFFE1;
+}
+
+form {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
 
